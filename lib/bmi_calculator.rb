@@ -1,4 +1,6 @@
-require "bmi_calculator/version"
+# frozen_string_literal: true
+
+require 'bmi_calculator/version'
 
 module BmiCalculator
   class Error < StandardError; end

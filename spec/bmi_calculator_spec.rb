@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
-require 'bmi_calculator'
+require 'calculato'
 
 RSpec.describe BMICalculator do
+  include 'calculato/bmi_calculator'
+
   describe '.calculate' do
     describe "5'0'' 155lbs" do
       it 'returns a valid result' do

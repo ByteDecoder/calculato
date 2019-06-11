@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bmi_calculator (0.1.0)
+    calculato (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -41,8 +41,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bmi_calculator!
   bundler (~> 1.17)
+  calculato!
   rake (~> 12.3)
   rspec (~> 3.8)
   rubocop (~> 0.71.0)

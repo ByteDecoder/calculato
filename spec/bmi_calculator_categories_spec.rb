@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'bmi_calculator'
+require 'calculato'
 
 RSpec.describe BMICalculator do
   describe '.category' do

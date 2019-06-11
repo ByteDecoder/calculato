@@ -4,5 +4,5 @@ source 'https://rubygems.org'
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-# Specify your gem's dependencies in bmi_calculator.gemspec
+# Specify your gem's dependencies in calculato.gemspec
 gemspec

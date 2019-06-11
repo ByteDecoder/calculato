@@ -2,21 +2,21 @@
 
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bmi_calculator/version'
+require 'calculato/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'bmi_calculator'
-  spec.version       = BMICalculator::VERSION
+  spec.name          = 'calculato'
+  spec.version       = Calculato::VERSION
   spec.authors       = ['Rodrigo Reyes']
   spec.email         = ['encode@bytedecoder.me']
 
-  spec.summary       = 'BMI Calculator'
-  spec.description   = 'BMI Calculator'
-  spec.homepage      = 'https://github.com/ByteDecoder/bmi_calculator'
+  spec.summary       = 'Calculato offers a wide range of medical topics calculations.'
+  spec.description   = 'Calculato offers a wide range of medical topics calculations.'
+  spec.homepage      = 'https://github.com/ByteDecoder/calculato'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/ByteDecoder/bmi_calculator'
-  spec.metadata['changelog_uri'] = 'https://github.com/ByteDecoder/bmi_calculator/blob/master/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/ByteDecoder/calculato'
+  spec.metadata['changelog_uri'] = 'https://github.com/ByteDecoder/calculato/blob/master/CHANGELOG.md'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

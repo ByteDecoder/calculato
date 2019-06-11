@@ -27,12 +27,13 @@ Or install it yourself as:
 Calculating the BMI for a person with 5'0'' 155lbs
 ```
 require 'calculato'
-result = BMICalculator.calculate(5, 0, 155)
+result = Calculato::BMICalculator.calculate(5, 0, 155)
 ```
 
 Calculating the BMI category
 ```
-result = BMICalculator.category(15)
+require 'calculato'
+result = Calculato::BMICalculator.category(15)
 ```
 
 ## Development

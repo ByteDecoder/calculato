@@ -1,4 +1,4 @@
-# BmiCalculator
+# BMICalculator
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bmi_calculator`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Calculating the BMI for a person with 5'0'' 155lbs
+```
+result = BMICalculator.calculate(5, 0, 155)
+```
+
+Calculating the BMI category
+```
+result = BMICalculator.category(15)
+```
 
 ## Development
 
@@ -32,4 +40,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/bmi_calculator.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ByteDecoder/bmi_calculator.

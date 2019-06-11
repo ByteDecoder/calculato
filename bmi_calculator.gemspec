@@ -6,7 +6,7 @@ require 'bmi_calculator/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'bmi_calculator'
-  spec.version       = BmiCalculator::VERSION
+  spec.version       = BMICalculator::VERSION
   spec.authors       = ['Rodrigo Reyes']
   spec.email         = ['encode@bytedecoder.me']
 

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module Calculato
-  module BMICalculator
+  class BMICalculator
     CATEGORIES = {
       0..15 => 'Very severely underweight',
       15..16 => 'Severely underweight',

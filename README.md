@@ -32,14 +32,45 @@ Calculating the BMI for a person with 5'0'' 155lbs
 
 ```ruby
 require 'calculato'
-result = Calculato::BMICalculator.calculate(5, 0, 155)
+
+Calculato::BMICalculator.calculate(5, 0, 155)
+# 30.3
+```
+
+Calculating the BMI for a perosn with 70'' 170 lbs
+
+```ruby
+Calculato::BMICalculator.short_calculate(70, 170)
+# 24.4
 ```
 
 Calculating the BMI category
 
 ```ruby
 require 'calculato'
-result = Calculato::BMICalculator.category(15)
+
+Calculato::BMICalculator.category(15)
+# "Very severely underweight"
+```
+
+BMI Categories
+
+```ruby
+require 'calculato'
+
+Calculato::BMICalculator::CATEGORIES
+# {0..15=>"Very severely underweight",
+#  15..16=>"Severely underweight",
+#  16..18.5=>"Underweight",
+#  16..18.5=>"Underweight",
+#  18.5..25=>"Normal (healthy weight)",
+#  25..30=>"Overweight",
+#  30..35=>"Obese Class I (Moderately obese)",
+#  35..40=>"Obese Class II (Severely obese)",
+#  40..45=>"Obese Class III (Very severely obese)",
+#  45..50=>"Obese Class IV (Morbidly Obese)",
+#  50..60=>"Obese Class V (Super Obese)",
+#  60..99=>"Obese Class VI (Hyper Obese)"}
 ```
 
 ## Development

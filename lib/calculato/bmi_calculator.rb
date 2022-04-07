@@ -17,8 +17,12 @@ module Calculato
     }.freeze
 
     def self.calculate(feet, inches, weight)
-      inches = (inches + (feet * 12)).to_f
-      short_calculate(inches, weight)
+      total_inches = calculate_total_inches(feet, inches)
+      short_calculate(total_inches, weight)
+    end
+
+    def self.calculate_total_inches(feet, inches)
+      (inches + (feet * 12)).to_f
     end
 
     def self.short_calculate(inches, weight)

@@ -4,7 +4,7 @@ Offers a wide range of medical topics calculations.
 
 Current features:
 
-  - BMI Calculator
+- BMI Calculator
 
 ## Installation
 
@@ -16,22 +16,28 @@ gem 'calculato'
 
 And then execute:
 
-    $ bundle
+```bash
+bundle
+```
 
 Or install it yourself as:
 
-    $ gem install calculato
+```bash
+gem install calculato
+```
 
 ## Usage
 
 Calculating the BMI for a person with 5'0'' 155lbs
-```
+
+```ruby
 require 'calculato'
 result = Calculato::BMICalculator.calculate(5, 0, 155)
 ```
 
 Calculating the BMI category
-```
+
+```ruby
 require 'calculato'
 result = Calculato::BMICalculator.category(15)
 ```
@@ -44,4 +50,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/ByteDecoder/calculato.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/ByteDecoder/calculato>.
